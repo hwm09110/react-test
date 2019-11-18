@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Circular from './components/Circular';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           {/* Learn React */}
         </a>
+        <Circular></Circular>
       </header>
     </div>
   );
